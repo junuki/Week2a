@@ -11,11 +11,9 @@
 #import "FeedViewController.h"
 #import "PeopleViewController.h"
 #import "NotificationViewController.h"
-#import "SearchViewController.h"
 #import "StatusViewController.h"
 #import "MoreViewController.h"
 #import "CheckinViewController.h"
-
 
 
 @implementation AppDelegate

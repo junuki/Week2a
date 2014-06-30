@@ -10,7 +10,7 @@
 
 @interface MoreViewController ()
 - (IBAction)showActionSheet:(id)sender;
-
+@property (weak, nonatomic) IBOutlet UIButton *loadingActivityView;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 
@@ -54,7 +54,9 @@
     UIImage *rightButtonImage = [[UIImage imageNamed:@"button_message_wht"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:rightButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(doNothing)];
     self.navigationItem.rightBarButtonItem = rightButton;
-   
+    
+    self.loadingActivityView.center = CGPointMake(self.loadingActivityView.center.x, (self.scrollView.contentSize.height-55));
+    
 }
 
 - (void)doNothing;

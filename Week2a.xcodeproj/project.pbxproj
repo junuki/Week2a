@@ -27,8 +27,6 @@
 		0FBDB8F21960C502005E5790 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB8F01960C502005E5790 /* NotificationViewController.xib */; };
 		0FBDB8F61960C97E005E5790 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDB8F41960C97E005E5790 /* PeopleViewController.m */; };
 		0FBDB8F71960C97E005E5790 /* PeopleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB8F51960C97E005E5790 /* PeopleViewController.xib */; };
-		0FBDB9001960FE7B005E5790 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDB8FE1960FE7B005E5790 /* SearchViewController.m */; };
-		0FBDB9011960FE7B005E5790 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB8FF1960FE7B005E5790 /* SearchViewController.xib */; };
 		0FBDB90519610554005E5790 /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDB90319610554005E5790 /* StatusViewController.m */; };
 		0FBDB90619610554005E5790 /* StatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB90419610554005E5790 /* StatusViewController.xib */; };
 		0FBDB90A1961272D005E5790 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDB9081961272D005E5790 /* MoreViewController.m */; };
@@ -76,9 +74,6 @@
 		0FBDB8F31960C97E005E5790 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
 		0FBDB8F41960C97E005E5790 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
 		0FBDB8F51960C97E005E5790 /* PeopleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeopleViewController.xib; sourceTree = "<group>"; };
-		0FBDB8FD1960FE7B005E5790 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
-		0FBDB8FE1960FE7B005E5790 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		0FBDB8FF1960FE7B005E5790 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		0FBDB90219610554005E5790 /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
 		0FBDB90319610554005E5790 /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
 		0FBDB90419610554005E5790 /* StatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusViewController.xib; sourceTree = "<group>"; };
@@ -117,30 +112,7 @@
 		0FA69361195FC1EE00512896 = {
 			isa = PBXGroup;
 			children = (
-				0FA6939C195FC21E00512896 /* LoginViewController.h */,
-				0FA6939D195FC21E00512896 /* LoginViewController.m */,
-				0FA6939E195FC21E00512896 /* LoginViewController.xib */,
-				0FA693A1195FC22800512896 /* FeedViewController.h */,
-				0FA693A2195FC22800512896 /* FeedViewController.m */,
-				0FA693A3195FC22800512896 /* FeedViewController.xib */,
-				0FBDB8F31960C97E005E5790 /* PeopleViewController.h */,
-				0FBDB8F41960C97E005E5790 /* PeopleViewController.m */,
-				0FBDB8F51960C97E005E5790 /* PeopleViewController.xib */,
-				0FBDB8EE1960C502005E5790 /* NotificationViewController.h */,
-				0FBDB8EF1960C502005E5790 /* NotificationViewController.m */,
-				0FBDB8F01960C502005E5790 /* NotificationViewController.xib */,
-				0FBDB9071961272D005E5790 /* MoreViewController.h */,
-				0FBDB9081961272D005E5790 /* MoreViewController.m */,
-				0FBDB9091961272D005E5790 /* MoreViewController.xib */,
-				0FBDB8FD1960FE7B005E5790 /* SearchViewController.h */,
-				0FBDB8FE1960FE7B005E5790 /* SearchViewController.m */,
-				0FBDB8FF1960FE7B005E5790 /* SearchViewController.xib */,
-				0FBDB90219610554005E5790 /* StatusViewController.h */,
-				0FBDB90319610554005E5790 /* StatusViewController.m */,
-				0FBDB90419610554005E5790 /* StatusViewController.xib */,
-				0FBDB90C19614477005E5790 /* CheckinViewController.h */,
-				0FBDB90D19614477005E5790 /* CheckinViewController.m */,
-				0FBDB90E19614477005E5790 /* CheckinViewController.xib */,
+				0FBDB91119615433005E5790 /* ViewControllers */,
 				0FA69373195FC1EE00512896 /* Week2a */,
 				0FA6938C195FC1EE00512896 /* Week2aTests */,
 				0FA6936C195FC1EE00512896 /* Frameworks */,
@@ -206,6 +178,34 @@
 				0FA6938F195FC1EE00512896 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FBDB91119615433005E5790 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6939C195FC21E00512896 /* LoginViewController.h */,
+				0FA6939D195FC21E00512896 /* LoginViewController.m */,
+				0FA6939E195FC21E00512896 /* LoginViewController.xib */,
+				0FA693A1195FC22800512896 /* FeedViewController.h */,
+				0FA693A2195FC22800512896 /* FeedViewController.m */,
+				0FA693A3195FC22800512896 /* FeedViewController.xib */,
+				0FBDB8F31960C97E005E5790 /* PeopleViewController.h */,
+				0FBDB8F41960C97E005E5790 /* PeopleViewController.m */,
+				0FBDB8F51960C97E005E5790 /* PeopleViewController.xib */,
+				0FBDB8EE1960C502005E5790 /* NotificationViewController.h */,
+				0FBDB8EF1960C502005E5790 /* NotificationViewController.m */,
+				0FBDB8F01960C502005E5790 /* NotificationViewController.xib */,
+				0FBDB9071961272D005E5790 /* MoreViewController.h */,
+				0FBDB9081961272D005E5790 /* MoreViewController.m */,
+				0FBDB9091961272D005E5790 /* MoreViewController.xib */,
+				0FBDB90219610554005E5790 /* StatusViewController.h */,
+				0FBDB90319610554005E5790 /* StatusViewController.m */,
+				0FBDB90419610554005E5790 /* StatusViewController.xib */,
+				0FBDB90C19614477005E5790 /* CheckinViewController.h */,
+				0FBDB90D19614477005E5790 /* CheckinViewController.m */,
+				0FBDB90E19614477005E5790 /* CheckinViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +292,6 @@
 				0FBDB91019614477005E5790 /* CheckinViewController.xib in Resources */,
 				0FA693A0195FC21E00512896 /* LoginViewController.xib in Resources */,
 				0FBDB90B1961272D005E5790 /* MoreViewController.xib in Resources */,
-				0FBDB9011960FE7B005E5790 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +319,6 @@
 				0FBDB90519610554005E5790 /* StatusViewController.m in Sources */,
 				0FBDB8F11960C502005E5790 /* NotificationViewController.m in Sources */,
 				0FA6939F195FC21E00512896 /* LoginViewController.m in Sources */,
-				0FBDB9001960FE7B005E5790 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
