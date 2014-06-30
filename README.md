@@ -5,6 +5,8 @@ Time spent: ~11hours
 Task completed: 
 - Facebook login page
 - Facebook feed
+- Status screen
+- Profile screen 
 
 Not completed: 
 - More screen scrollview - wasn't able to hide the navigation bar as scroll begins.
