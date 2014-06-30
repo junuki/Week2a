@@ -14,6 +14,7 @@
 #import "StatusViewController.h"
 #import "MoreViewController.h"
 #import "CheckinViewController.h"
+#import "ProfileViewController.h"
 
 
 @implementation AppDelegate

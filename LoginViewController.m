@@ -13,6 +13,7 @@
 #import "StatusViewController.h"
 #import "MoreViewController.h"
 #import "CheckinViewController.h"
+#import "ProfileViewController.h"
 
 @interface LoginViewController ()
 
@@ -116,11 +117,14 @@
    UIViewController *peopleViewController = [[PeopleViewController alloc] init];
    UIViewController *notificationViewController = [[NotificationViewController alloc] init];
    UIViewController *moreViewController = [[MoreViewController alloc] init];
+   UIViewController *profileViewController = [[ProfileViewController alloc] init];
+    
     
    UINavigationController *feedNavigationController = [[UINavigationController alloc] initWithRootViewController:feedViewController];
    UINavigationController *peopleNavigationController = [[UINavigationController alloc] initWithRootViewController:peopleViewController];
    UINavigationController *notificationNavigationController = [[UINavigationController alloc] initWithRootViewController:notificationViewController];
    UINavigationController *moreNavigationController = [[UINavigationController alloc] initWithRootViewController:moreViewController];
+   UINavigationController *profileNavigationController = [[UINavigationController alloc] initWithRootViewController:profileViewController];
     
    // UINavigationController.modalTransitionStyle = UIModalTransitionStyleCoverVertical; // Rises from below
  
@@ -146,7 +150,6 @@
     
     moreNavigationController.tabBarItem.title = @"More";
     moreNavigationController.tabBarItem.image = [UIImage imageNamed:@"tab_more"];
-    
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[feedNavigationController, peopleNavigationController, notificationNavigationController, moreNavigationController];

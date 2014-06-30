@@ -33,6 +33,8 @@
 		0FBDB90B1961272D005E5790 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB9091961272D005E5790 /* MoreViewController.xib */; };
 		0FBDB90F19614477005E5790 /* CheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDB90D19614477005E5790 /* CheckinViewController.m */; };
 		0FBDB91019614477005E5790 /* CheckinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB90E19614477005E5790 /* CheckinViewController.xib */; };
+		0FBDB915196160DC005E5790 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDB913196160DC005E5790 /* ProfileViewController.m */; };
+		0FBDB916196160DC005E5790 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBDB914196160DC005E5790 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,9 @@
 		0FBDB90C19614477005E5790 /* CheckinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinViewController.h; sourceTree = "<group>"; };
 		0FBDB90D19614477005E5790 /* CheckinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinViewController.m; sourceTree = "<group>"; };
 		0FBDB90E19614477005E5790 /* CheckinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckinViewController.xib; sourceTree = "<group>"; };
+		0FBDB912196160DC005E5790 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		0FBDB913196160DC005E5790 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		0FBDB914196160DC005E5790 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +206,9 @@
 				0FBDB90219610554005E5790 /* StatusViewController.h */,
 				0FBDB90319610554005E5790 /* StatusViewController.m */,
 				0FBDB90419610554005E5790 /* StatusViewController.xib */,
+				0FBDB912196160DC005E5790 /* ProfileViewController.h */,
+				0FBDB913196160DC005E5790 /* ProfileViewController.m */,
+				0FBDB914196160DC005E5790 /* ProfileViewController.xib */,
 				0FBDB90C19614477005E5790 /* CheckinViewController.h */,
 				0FBDB90D19614477005E5790 /* CheckinViewController.m */,
 				0FBDB90E19614477005E5790 /* CheckinViewController.xib */,
@@ -291,6 +299,7 @@
 				0FA693A5195FC22900512896 /* FeedViewController.xib in Resources */,
 				0FBDB91019614477005E5790 /* CheckinViewController.xib in Resources */,
 				0FA693A0195FC21E00512896 /* LoginViewController.xib in Resources */,
+				0FBDB916196160DC005E5790 /* ProfileViewController.xib in Resources */,
 				0FBDB90B1961272D005E5790 /* MoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +323,7 @@
 				0FA6937A195FC1EE00512896 /* main.m in Sources */,
 				0FBDB90F19614477005E5790 /* CheckinViewController.m in Sources */,
 				0FA693A4195FC22900512896 /* FeedViewController.m in Sources */,
+				0FBDB915196160DC005E5790 /* ProfileViewController.m in Sources */,
 				0FBDB8F61960C97E005E5790 /* PeopleViewController.m in Sources */,
 				0FBDB90A1961272D005E5790 /* MoreViewController.m in Sources */,
 				0FBDB90519610554005E5790 /* StatusViewController.m in Sources */,

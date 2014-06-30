@@ -1,18 +1,18 @@
 //
-//  CheckinViewController.m
+//  ProfileViewController.m
 //  Week2a
 //
 //  Created by Jung Eun Kim on 6/30/14.
 //  Copyright (c) 2014 jung. All rights reserved.
 //
 
-#import "CheckinViewController.h"
+#import "ProfileViewController.h"
 
-@interface CheckinViewController ()
+@interface ProfileViewController ()
 
 @end
 
-@implementation CheckinViewController
+@implementation ProfileViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,16 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    // Do any additional setup after loading the view from its nib.
-    
     NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                     [UIColor whiteColor],NSForegroundColorAttributeName,
                                     [UIColor whiteColor],NSBackgroundColorAttributeName,nil];
     self.navigationController.navigationBar.titleTextAttributes = textAttributes;
-    self.title = @"Checkin";
-
-  //custom back button on navigation bar
+    self.title = @"awesome profile";
+    
+    //custom back button on navigation bar
     UIImage *buttonImage = [UIImage imageNamed:@"back_arrow_wht.png"];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setImage:buttonImage forState:UIControlStateNormal];
@@ -44,15 +41,15 @@
     
     UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = customBarItem;
-  
     
-  //   UIBarButtonItem *btn = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStyleBordered target:self action:@selector(onBackButton:)];
-   //  self.navigationItem.leftBarButtonItem = btn;
+    
+    //   UIBarButtonItem *btn = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStyleBordered target:self action:@selector(onBackButton:)];
+    //  self.navigationItem.leftBarButtonItem = btn;
     
 }
 
 - (void)onBackButton:(id)sender {
-     [self.navigationController popViewControllerAnimated: YES];
+    [self.navigationController popViewControllerAnimated: YES];
 }
 
 

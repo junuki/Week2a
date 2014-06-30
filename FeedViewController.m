@@ -9,6 +9,7 @@
 #import "FeedViewController.h"
 #import "StatusViewController.h"
 #import "CheckinViewController.h"
+#import "ProfileViewController.h"
 
 @interface FeedViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
@@ -16,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *feedScrollView;
 - (IBAction)StatusButton:(id)sender;
 - (IBAction)checkinButton:(id)sender;
+- (IBAction)profileButton:(id)sender;
 
 @end
 
@@ -84,5 +86,11 @@
 - (IBAction)checkinButton:(id)sender {
     CheckinViewController *vc = [[CheckinViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)profileButton:(id)sender {
+    ProfileViewController *vc = [[ProfileViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 @end
